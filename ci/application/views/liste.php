@@ -18,5 +18,8 @@
         
         ?>
         </ul>
+
+        <a href="<?php echo site_url("produits/modifier/".$produits->id); ?>">Modifier</a> 
+        
 </body>
 </html>
